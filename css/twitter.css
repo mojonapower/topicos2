@@ -1,0 +1,111 @@
+/* 
+* Example style!
+* You can do whatever the hell you want on your site :-)
+*/
+
+h2 {
+  clear:both;
+}
+
+p, a {
+  font-size:9pt;
+  margin:10px 0 0 0;
+  color:#3d3d3d;
+}
+
+a, a:visited {
+  color:#427fed;
+}
+
+a:hover {
+  color:#82afff;
+}
+
+ul.ultweets li {
+  list-style:none;
+  overflow:hidden;
+  margin:0px;
+  padding:5px;
+}
+
+ul.ultweets li:hover {
+  background-color:#f0f3fb;
+}
+
+.user, .tweet, .timePosted {
+  float:left;
+}
+
+.user {
+  width:100%;
+}
+.user img {
+	display:none
+}
+
+.tweet {
+  width: 100%;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+}
+
+.timePosted {
+  width:100%;
+  margin-left:15px !important
+}
+
+
+.user {
+  clear:left;
+}
+
+.user a {
+ width: 100px;
+}
+
+.user span span {
+  width:60px;
+  display:block;
+  margin-top:0px;
+}
+
+.user img, .user a > span {
+  float:left;
+}
+
+.interact {
+  float:left;
+  width:10%;
+  margin-top:-7px;
+}
+
+.interact a {
+  margin-left:5px;
+  float:left;
+}
+
+.user a > span {
+  margin-left:5px;
+}
+
+.media img {
+  max-width:250px;
+  max-height:250px;
+}
+
+#linkage {
+  position:fixed;
+  top:0px;
+  right:0px;
+  background-color:#3d3d3d;
+  color:#ffffff;
+  text-decoration:none;
+  padding:5px;
+  width:10%;
+  font-family:arial;
+}
+#scroller li a {
+	text-decoration:none
+}
+
+.user-right { }
